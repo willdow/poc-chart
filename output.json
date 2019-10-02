@@ -1,213 +1,209 @@
 {
-    "75000": {
-        "totalAmount": 1,
-        "event": {
-            "Événements": 1
-        }
-    },
     "75001": {
-        "totalAmount": 88,
+        "totalAmount": 81,
         "event": {
-            "Concerts": 56,
-            "Spectacles": 3,
-            "Animations": 22,
-            "Expositions": 3,
-            "Nuit Blanche": 4
+            "Concerts": 62,
+            "Nuit Blanche": 5,
+            "Événements": 2,
+            "Spectacles": 4,
+            "Expositions": 4,
+            "Animations": 4
         }
     },
     "75002": {
-        "totalAmount": 5,
+        "totalAmount": 24,
         "event": {
-            "Animations": 4,
-            "Événements": 1
+            "Animations": 10,
+            "Spectacles": 3,
+            "Événements": 2,
+            "Nuit Blanche": 2,
+            "Expositions": 5,
+            "Concerts": 2
         }
     },
     "75003": {
-        "totalAmount": 48,
+        "totalAmount": 39,
         "event": {
-            "Concerts": 11,
-            "Animations": 14,
-            "Spectacles": 11,
-            "Événements": 3,
-            "Nuit Blanche": 2,
-            "Expositions": 7
+            "Expositions": 11,
+            "Animations": 24,
+            "Nuit Blanche": 4
         }
     },
     "75004": {
-        "totalAmount": 43,
+        "totalAmount": 58,
         "event": {
-            "Animations": 17,
-            "Spectacles": 10,
-            "Expositions": 5,
-            "Concerts": 4,
+            "Animations": 23,
+            "Spectacles": 17,
+            "Événements": 7,
             "Nuit Blanche": 3,
-            "Événements": 4
+            "Expositions": 6,
+            "Concerts": 2
         }
     },
     "75005": {
-        "totalAmount": 29,
+        "totalAmount": 28,
         "event": {
-            "Animations": 17,
-            "Événements": 3,
-            "Spectacles": 5,
+            "Spectacles": 13,
+            "Animations": 8,
+            "Expositions": 4,
             "Nuit Blanche": 2,
-            "Concerts": 1,
-            "Expositions": 1
+            "Événements": 1
         }
     },
     "75006": {
-        "totalAmount": 20,
+        "totalAmount": 61,
         "event": {
-            "Animations": 9,
+            "Animations": 46,
             "Expositions": 7,
-            "Concerts": 2,
+            "Spectacles": 4,
+            "Événements": 1,
             "Nuit Blanche": 1,
-            "Spectacles": 1
+            "Concerts": 2
         }
     },
     "75007": {
-        "totalAmount": 10,
+        "totalAmount": 25,
         "event": {
-            "Concerts": 2,
-            "Expositions": 1,
+            "Expositions": 9,
+            "Animations": 9,
             "Événements": 2,
-            "Spectacles": 2,
-            "Animations": 2,
-            "Nuit Blanche": 1
+            "Nuit Blanche": 4,
+            "Concerts": 1
         }
     },
     "75008": {
-        "totalAmount": 20,
+        "totalAmount": 12,
         "event": {
-            "Concerts": 9,
+            "Concerts": 5,
+            "Animations": 2,
+            "Événements": 2,
             "Expositions": 2,
-            "Événements": 3,
-            "Spectacles": 3,
-            "Nuit Blanche": 1,
-            "Animations": 2
+            "Spectacles": 1
         }
     },
     "75009": {
-        "totalAmount": 13,
+        "totalAmount": 17,
         "event": {
             "Animations": 7,
             "Concerts": 4,
-            "Spectacles": 1,
-            "Expositions": 1
+            "Spectacles": 3,
+            "Expositions": 2,
+            "Nuit Blanche": 1
         }
     },
     "75010": {
-        "totalAmount": 75,
+        "totalAmount": 20,
         "event": {
-            "Concerts": 35,
-            "Événements": 5,
-            "Spectacles": 11,
-            "Animations": 18,
-            "Expositions": 4,
-            "Nuit Blanche": 2
+            "Animations": 4,
+            "Spectacles": 6,
+            "Expositions": 5,
+            "Événements": 2,
+            "Nuit Blanche": 1,
+            "Concerts": 2
         }
     },
     "75011": {
-        "totalAmount": 72,
+        "totalAmount": 44,
         "event": {
-            "Événements": 5,
-            "Concerts": 29,
-            "Animations": 32,
-            "Expositions": 2,
-            "Spectacles": 4
+            "Concerts": 6,
+            "Nuit Blanche": 1,
+            "Animations": 20,
+            "Spectacles": 12,
+            "Événements": 4,
+            "Expositions": 1
         }
     },
     "75012": {
-        "totalAmount": 70,
+        "totalAmount": 49,
         "event": {
-            "Concerts": 29,
-            "Événements": 9,
-            "Animations": 24,
-            "Spectacles": 3,
-            "Nuit Blanche": 3,
-            "Expositions": 2
+            "Spectacles": 16,
+            "Animations": 12,
+            "Nuit Blanche": 4,
+            "Expositions": 6,
+            "Événements": 7,
+            "Concerts": 4
         }
     },
     "75013": {
-        "totalAmount": 50,
+        "totalAmount": 49,
         "event": {
-            "Concerts": 25,
-            "Animations": 12,
-            "Spectacles": 4,
-            "Nuit Blanche": 1,
-            "Expositions": 4,
-            "Événements": 4
+            "Spectacles": 19,
+            "Concerts": 6,
+            "Animations": 11,
+            "Événements": 2,
+            "Nuit Blanche": 6,
+            "Expositions": 5
         }
     },
     "75014": {
-        "totalAmount": 25,
+        "totalAmount": 26,
         "event": {
-            "Animations": 13,
-            "Spectacles": 5,
-            "Concerts": 2,
-            "Nuit Blanche": 4,
+            "Nuit Blanche": 18,
+            "Spectacles": 3,
+            "Animations": 4,
             "Événements": 1
         }
     },
     "75015": {
-        "totalAmount": 62,
+        "totalAmount": 40,
         "event": {
-            "Animations": 34,
-            "Concerts": 22,
-            "Événements": 4,
-            "Spectacles": 2
+            "Spectacles": 23,
+            "Expositions": 3,
+            "Animations": 11,
+            "Nuit Blanche": 1,
+            "Événements": 2
         }
     },
     "75016": {
-        "totalAmount": 21,
+        "totalAmount": 194,
         "event": {
-            "Spectacles": 5,
-            "Concerts": 10,
-            "Événements": 2,
-            "Animations": 2,
-            "Expositions": 2
+            "Spectacles": 67,
+            "Concerts": 118,
+            "Événements": 3,
+            "Animations": 5,
+            "Expositions": 1
         }
     },
     "75017": {
-        "totalAmount": 15,
+        "totalAmount": 17,
         "event": {
-            "Animations": 4,
-            "Événements": 1,
-            "Concerts": 6,
-            "Spectacles": 2,
-            "Expositions": 2
+            "Concerts": 11,
+            "Expositions": 1,
+            "Spectacles": 1,
+            "Animations": 2,
+            "Événements": 2
         }
     },
     "75018": {
-        "totalAmount": 68,
+        "totalAmount": 126,
         "event": {
-            "Spectacles": 15,
-            "Animations": 32,
-            "Expositions": 5,
-            "Événements": 3,
-            "Nuit Blanche": 3,
-            "Concerts": 10
+            "Animations": 20,
+            "Expositions": 2,
+            "Concerts": 75,
+            "Spectacles": 18,
+            "Événements": 9,
+            "Nuit Blanche": 2
         }
     },
     "75019": {
-        "totalAmount": 199,
+        "totalAmount": 60,
         "event": {
+            "Spectacles": 15,
+            "Concerts": 15,
             "Nuit Blanche": 8,
-            "Spectacles": 13,
-            "Animations": 55,
-            "Concerts": 116,
-            "Expositions": 1,
-            "Événements": 6
+            "Animations": 17,
+            "Expositions": 2,
+            "Événements": 3
         }
     },
     "75020": {
-        "totalAmount": 66,
+        "totalAmount": 29,
         "event": {
-            "Spectacles": 9,
-            "Concerts": 26,
-            "Animations": 16,
-            "Expositions": 4,
-            "Événements": 11
+            "Spectacles": 16,
+            "Concerts": 3,
+            "Nuit Blanche": 1,
+            "Événements": 6,
+            "Animations": 3
         }
     }
 }
