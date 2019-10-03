@@ -4,6 +4,7 @@
   "description": "With https://www.chartjs.org/docs/latest/",
   "main": "index.js",
   "dependencies": {
+    "live-server": "^1.2.1",
     "nodemon": "^1.19.3"
   },
   "devDependencies": {},
