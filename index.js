@@ -1,13 +1,12 @@
 
 (async () => {
-    const json = await fetch('./output.json').then((response) => response.json())
 
+    const json = await fetch('./output.json').then((response) => response.json());
     const labels = Object.keys(json);
     const datas = Object.values(json).map((value) => value.totalAmount);
 
     function chartIt(chart, type) {
-        const canvas = document.getElementById(chart);
-        const myChart = canvas.getContext('2d');
+        const myChart = document.getElementById(chart).getContext('2d');
         const massPopChart = new Chart(myChart, {
             type: type,
             data: {
@@ -16,7 +15,7 @@
                     {
                         label: 'Events',
                         data: datas.slice(0, 20),
-                        backgroundColor: poolColors(29),
+                        backgroundColor: poolColors(21),
                         hoverBorderWidth: 2,
                         hoverBorderColor: '#FFF'
                     }
@@ -51,15 +50,15 @@
         return massPopChart;
     };
 
-    let poolColors = function (a) {
+    const poolColors = (a) => {
         let pool = [];
-        for (i = 0; i < a; i++) {
+        for (let i = 0; i < a; i++) {
             pool.push(dynamicColors());
         }
         return pool;
     }
 
-    let dynamicColors = function () {
+    const dynamicColors = () => {
         let r = Math.floor(Math.random() * 255);
         let g = Math.floor(Math.random() * 255);
         let b = Math.floor(Math.random() * 255);
@@ -69,26 +68,23 @@
     const c1 = chartIt('myChartOne', 'pie');
     const c2 = chartIt('myChartTwo', 'bar');
 
-    document.getElementById('myChartOne').onclick = function (evt) {
-        var activePoints = c1.getElementsAtEvent(evt);
-        if (activePoints[0]) {
-            var chartData = activePoints[0]['_chart'].config.data;
-            var idx = activePoints[0]['_index'];
-
-            var label = chartData.labels[idx];
-            var value = chartData.datasets[0].data[idx];
-
-            c1.data.datasets[0].data[idx] = 0;
-            
-            // const rand = () => Math.floor(Math.random()*100)
-            // for ( let i = 0 ; i < c1.data.datasets[0].data.length ; i++) {
-            //     c1.data.datasets[0].data[i] = rand();
-            // }
-            c1.update();
+    [['myChartOne', [c1]],['myChartTwo', [c2]]].forEach(([chartId, someCharts]) => {
+        document.getElementById(chartId).onclick = function (evt) {
+            someCharts.forEach((aChart) => {
+                let activePoints = aChart.getElementsAtEvent(evt)[0];
+                if (activePoints) {
+                    console.log('activePoints', activePoints);
+                    let idx = activePoints['_index'];
+                    const rand = () => Math.floor(Math.random() * 100)
+                    aChart.data.datasets[0].data[idx] = rand();
+                    aChart.update();
+                }
+            })
         }
-    }
+    })
 
-    function addData(chart, label, data) {
+    const addData = (chart, label, data) => {
+        window.joey=chart;
         chart.data.labels.push(label);
         chart.data.datasets.forEach((dataset) => {
             dataset.data.push(data);
@@ -96,7 +92,7 @@
         chart.update();
     }
 
-    function removeData(chart) {
+    const removeData = (chart) => {
         chart.data.labels.pop();
         chart.data.datasets.forEach((dataset) => {
             dataset.data.pop();
