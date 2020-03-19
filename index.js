@@ -111,3 +111,4 @@
 
 })();
 
+//test git squash
