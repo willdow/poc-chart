@@ -18,3 +18,5 @@ Live-server :
 
 ## Documentation
 https://www.chartjs.org/docs/latest/getting-started/
+
+test squash
